@@ -57,7 +57,7 @@ var charts = Charts{
 		Title: "Memory Allocated",
 		Units: "MB",
 		Type:  module.Line,
-		Ctx:   "nvidia_smi.memory_allocated",
+		Ctx:   "nvidia_smi.mem_allocated",
 		Dims: Dims{
 			{ID: "memory_usage_used", Name: "used", Algo: module.Absolute, Div: 1, Mul: 1},
 			{ID: "memory_usage_free", Name: "free", Algo: module.Absolute, Div: 1, Mul: 1},

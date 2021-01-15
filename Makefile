@@ -30,7 +30,7 @@ fmt:
 	hack/go-fmt.sh .
 
 .PHONY: vet
-vet: 
+vet:
 	go vet ./...
 
 .PHONY: release
